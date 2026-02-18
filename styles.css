@@ -28,6 +28,13 @@ a:hover{opacity:.9}
 .contact{display:flex;gap:16px;flex-wrap:wrap;margin:10px 0 14px}
 .contact__item{padding:10px 12px;border:1px solid var(--line);border-radius:14px;background:rgba(255,255,255,.02)}
 .trust{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
+.cred{display:flex;gap:12px;align-items:center;margin-top:14px;padding:12px;border:1px solid var(--line);border-radius:18px;background:rgba(255,255,255,.02)}
+.cred__photo{flex:0 0 auto}
+.avatar{width:44px;height:44px;border-radius:16px;display:flex;align-items:center;justify-content:center;font-weight:800;background:linear-gradient(135deg,rgba(124,92,255,.32),rgba(34,211,238,.18));border:1px solid rgba(124,92,255,.40)}
+.cred__name{font-weight:800}
+.proof{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:12px}
+.proof__item{border:1px solid var(--line);border-radius:16px;padding:12px;background:rgba(255,255,255,.02)}
+.proof__item strong{display:block;margin-bottom:2px}
 .pill{padding:8px 10px;border-radius:999px;border:1px solid var(--line);background:rgba(255,255,255,.02);font-size:13px;color:var(--muted)}
 .badges{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:14px}
 .badge{display:flex;gap:10px;align-items:flex-start;border:1px solid var(--line);border-radius:16px;padding:12px;background:rgba(255,255,255,.02)}
@@ -75,5 +82,5 @@ details p{margin:10px 0 0}
 .footer{padding:22px 0;border-top:1px solid var(--line)}
 .footer__in{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap}
 .footer__links{display:flex;gap:12px;flex-wrap:wrap}
-@media (max-width:980px){.hero__grid{grid-template-columns:1fr}.steps{grid-template-columns:1fr 1fr}.grid3{grid-template-columns:1fr}.features{grid-template-columns:1fr}.badges{grid-template-columns:1fr}}
-@media (max-width:560px){.hero h1{font-size:32px}.steps{grid-template-columns:1fr}.kpi{grid-template-columns:1fr}}
+@media (max-width:980px){.hero__grid{grid-template-columns:1fr}.steps{grid-template-columns:1fr 1fr}.grid3{grid-template-columns:1fr}.features{grid-template-columns:1fr}.badges{grid-template-columns:1fr}.proof{grid-template-columns:1fr 1fr}}
+@media (max-width:560px){.hero h1{font-size:32px}.steps{grid-template-columns:1fr}.kpi{grid-template-columns:1fr}.proof{grid-template-columns:1fr}}
